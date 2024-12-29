@@ -1,0 +1,27 @@
+.app {
+	font-family: Arial, sans-serif;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-color: #000a34;
+}
+
+.header {
+	color: white;
+}
+
+.reset {
+	margin-top: 20px;
+	padding: 10px 20px;
+	font-size: 1em;
+	border-radius: 5px;
+	background-color: white;
+	cursor: pointer;
+	transition: all 0.3s;
+}
+
+.reset:hover {
+	background-color: #fff8be;
+}

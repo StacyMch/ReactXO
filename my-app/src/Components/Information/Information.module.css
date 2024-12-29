@@ -1,0 +1,12 @@
+.info {
+	color: white;
+	margin: 0;
+}
+
+.playerX {
+	color: #4CAF50;
+}
+
+.playerO {
+	color: #F44336;
+}

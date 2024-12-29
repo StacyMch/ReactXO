@@ -1,0 +1,41 @@
+.container {
+	text-align: center;
+}
+
+.board {
+	display: grid;
+	grid-template-columns: repeat(3, 100px);
+	grid-template-rows: repeat(3, 100px);
+	gap: 5px;
+	margin: 20px auto;
+}
+
+.cell {
+	width: 100px;
+	height: 100px;
+	background-color: #fff;
+	border: 2px solid #333;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 2em;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: all 0.3s;
+}
+
+.cell:hover {
+	background-color: #e0e0e0;
+}
+
+.winner {
+	background-color: #fff8be;
+}
+
+.playerX {
+	color: #4CAF50;
+}
+
+.playerO {
+	color: #F44336;
+}
